@@ -8,6 +8,7 @@ const App = () => {
       return;
     }
     if (isNaN(event.target.value)) {
+      setTime(0);
       return;
     }
     let number = Math.floor(event.target.value);
